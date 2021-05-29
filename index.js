@@ -30,3 +30,11 @@ const mapToSquare = function(sourceArray) {
   }
   return newArr
 }
+
+const reduceToTotal = function(sourceArray) {
+  let total = 0
+  for (let i = 0; i < sourceArray.length; i++) {
+    total += sourceArray[i]
+  }
+  return total
+}
