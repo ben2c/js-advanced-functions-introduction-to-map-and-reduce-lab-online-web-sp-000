@@ -22,3 +22,11 @@ const mapToDouble = function(sourceArray) {
   }
   return newArr
 }
+
+const mapToSquare = function(sourceArray) {
+  let newArr = []
+  for (let i = 0; i < sourceArray.length; i++) {
+    newArr[i] = sourceArray[i]**2
+  }
+  return newArr
+}
