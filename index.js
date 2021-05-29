@@ -31,7 +31,7 @@ const mapToSquare = function(sourceArray) {
   return newArr
 }
 
-const reduceToTotal = function(sourceArray) {
+const reduceToTotal = function(sourceArray, startingPoint = 0) {
   let total = 0
   for (let i = 0; i < sourceArray.length; i++) {
     total += sourceArray[i]
