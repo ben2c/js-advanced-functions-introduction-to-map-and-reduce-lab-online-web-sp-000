@@ -14,3 +14,11 @@ const mapToNoChange = function(sourceArray) {
   }
   return newArr
 }
+
+const mapToDouble = function(sourceArray) {
+  let newArr = []
+  for (let i = 0; i < sourceArray.length; i++) {
+    newArr[i] = sourceArray[i]
+  }
+  return newArr
+}
